@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(235, 212, 166);
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.header {
+    height: 180px;
+    background-color: #b3d233; 
+    padding: 20px 150px; 
+    text-align: right; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for h2 */
+.header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.2rem; 
+    color: #333333; 
+}
+
+/* Style for h4 */
+.header h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem; 
+    color: #666666; 
+}
+
+.body{
+    background-color: rgb(248, 242, 235);
+    margin: 0px;
+    padding: 10px;
+}
+
+/* Navigation menu container */
+.nav {
+    background-color: #e7e9e3; 
+    padding: 10px 0; 
+    border: 2px solid #cacaca; 
+    border-bottom:0px;
+}
+
+/* Style for the unordered list */
+.nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+/* Style for each list item */
+.nav ul li {
+    display: inline-block; 
+    margin: 0 20px; 
+}
+
+/* Style for the links */
+.nav ul li a {
+    text-decoration: none; 
+    color: #4b5c42; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+/* Hover effect for the links */
+.nav ul li a:hover {
+    background-color: #cacab5; 
+    color: #333; 
+}
+
+/* Footer container */
+footer {
+    background-color: #c1d743; 
+    padding: 10px 0; 
+    text-align: center; 
+    border-top: 2px solid #c4ba80; 
+}
+
+/* Style for the text */
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; 
+    margin: 0; 
+}
+
+/* Container for Sidebar and Content Area */
+.container {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.main-menu h2, .block h2 {
+    font-size: 1.5rem;
+    background-color: #d9e06f;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+.main-menu ul {
+    list-style-type: square;
+    padding-left: 35px;
+    margin-bottom: 50px;
+}
+
+.main-menu ul li {
+    margin: 10px 0;
+}
+
+.main-menu ul li a {
+    text-decoration: underline;
+    color: #4b5c42;
+    font-size: 1.1rem;
+}
+
+.block p {
+    padding-left: 15px;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Content Area Styling */
+.content-area {
+    width: 75%;
+    padding: 0 20px;
+    background-color: rgb(248, 242, 235);
+}
+
+.gallery, .subscription, .other-services {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.gallery h2, .subscription h2, .other-services h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.gallery p, .subscription p, .other-services p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /
+}
+
+.subscription {
+    width: 48%;
+    padding-right: 10px; 
+    border-right: 1px solid #8e8d8d; 
+}
+
+.other-services {
+    width: 48%;
+    padding-left: 15px; 
+}
+
+.subscription, .other-services {
+    width: 48%;
+}
+
+button {
+    background-color: #b3d233;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cacab5;
+}
